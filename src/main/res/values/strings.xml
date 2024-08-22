@@ -3,4 +3,7 @@
     <string name="titulo">Formulario</string>
     <string name="nombre">Nombre</string>
     <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="correo">Correo</string>
+    <string name="aceptar">Aceptar</string>
 </resources>
