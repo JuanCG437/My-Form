@@ -19,38 +19,26 @@ import com.newproject.proyecto_ejemplo.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText ingresarUsuario;
-    TextView Usuario;
-    Button Btn_hola, Btn_mundo;
-
-
+    EditText nombre, apellidos, edad, correo;
+    Button aceptar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ingresarUsuario = (EditText) findViewById(R.id.ingresar_user);
-        Usuario = (TextView) findViewById(R.id.usuario);
-        Btn_hola = findViewById(R.id.btn_hola);
-        Btn_mundo = findViewById(R.id.btn_mundo);
+        nombre = (EditText) findViewById(R.id.editNombre);
+        apellidos = (EditText) findViewById(R.id.editApellido);
+        edad = (EditText) findViewById(R.id.editEdad);
+        correo = (EditText) findViewById(R.id.editCorreo);
+        aceptar = (Button) findViewById(R.id.btnAceptar);
 
-        Btn_hola.setOnClickListener(new View.OnClickListener() {
+        aceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Usuario.setText("Presionaste el botón hola");
-                ingresarUsuario.getText();
+                
             }
         });
-
-        Btn_mundo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
     }
 
 }
