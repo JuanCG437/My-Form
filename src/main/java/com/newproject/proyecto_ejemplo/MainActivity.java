@@ -1,5 +1,6 @@
 package com.newproject.proyecto_ejemplo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -36,7 +37,20 @@ public class MainActivity extends AppCompatActivity {
         aceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+
+                String name = nombre.getText().toString();
+                String surname = apellidos.getText().toString();
+                String age = edad.getText().toString();
+                String email = correo.getText().toString();
+
+                Intent pasarDato = new Intent(MainActivity.this, MostrarDatos.class);
+
+                pasarDato.putExtra("name", name);
+                pasarDato.putExtra("surname", surname);
+                pasarDato.putExtra("age", age);
+                pasarDato.putExtra("email", email);
+
+                startActivity(pasarDato);
             }
         });
     }

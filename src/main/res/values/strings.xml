@@ -5,5 +5,7 @@
     <string name="apellido">Apellido</string>
     <string name="edad">Edad</string>
     <string name="correo">Correo</string>
-    <string name="aceptar">Aceptar</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="titulo2">Mis datos</string>
+    <string name="btnConfirmar">Confirmar</string>
 </resources>
