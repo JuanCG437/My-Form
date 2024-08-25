@@ -65,7 +65,7 @@
             android:autofillHints=""
             android:minHeight="48dp"
             android:hint="@string/correo"
-            tools:ignore="VisualLintTextFieldSize" />
+            tools:ignore="TextFields,VisualLintTextFieldSize" />
         <Button
             android:id="@+id/btnAceptar"
             android:layout_width="match_parent"
