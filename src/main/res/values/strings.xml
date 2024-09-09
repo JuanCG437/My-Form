@@ -7,5 +7,6 @@
     <string name="correo">Correo</string>
     <string name="btnAceptar">Aceptar</string>
     <string name="titulo2">Mis datos</string>
-    <string name="btnConfirmar">Confirmar</string>
+    <string name="btnConfirmar">Volver</string>
+    <string name="btnAbrirurl">Abrir página</string>
 </resources>

@@ -49,6 +49,13 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
     <Button
+        android:id="@+id/btnMypage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAbrirurl"
+        android:layout_marginTop="25dp"/>
+
+    <Button
         android:id="@+id/btnConfirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
